@@ -1,0 +1,32 @@
+.model_main{
+    background-image: url(./img/background.jpg) ;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: inline-flex;
+}
+.left_select{
+    /* background-color: blue; */
+    width: 5%;
+    height: 50%;
+    margin-left: 10%;
+    display: block;
+    margin-top: 5%;
+}
+
+.img{
+    width: 90%;
+    height: 17%;
+    margin-bottom: 20%;
+    color: white;
+    font-size: 100%;
+}
+.model_show{
+    width: 70%;
+    height: 70%;
+    background-color: aquamarine;
+    margin-top: 5%;
+    margin-left: 1%;
+}
