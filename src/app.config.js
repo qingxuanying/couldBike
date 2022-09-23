@@ -1,8 +1,11 @@
 export default {
   pages: [
     'pages/3d/index',
-    'pages/three/index',
-    'pages/index/index'
+    'pages/index/index',
+    'pages/xunlian/index',
+    'pages/guide/index',
+    'pages/zixun/index',
+    'pages/addZixun/index'
   ],
   window: {
     backgroundTextStyle: 'light',

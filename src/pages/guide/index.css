@@ -1,0 +1,45 @@
+.xunlian_body{
+    background-image: url(./img/back.png) ;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: inline-flex;
+}
+.left{
+    width: 15%;
+    /* background-color: aqua; */
+    display: block;
+    margin-left: 3%;
+}
+.left_card{
+    margin: 10%;
+    background-color: #4BA2F9;
+    opacity: 0.53;
+    height: 16%;
+    text-align: center;
+    line-height: 45px;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    border-radius: 25%;
+}
+.xun_text{
+    /* border: 3px solid black; */
+    width: 60%;
+    margin-left: 10%;
+    height: 60%;
+    margin-top: 6%;
+}
+.ti{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.te{
+    color: white;
+    margin-top: 6%;
+    font-size: large;
+    font-weight: bolder;
+}

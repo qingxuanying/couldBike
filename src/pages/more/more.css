@@ -1,0 +1,31 @@
+.more_body {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 20%;
+  bottom: 0;
+  margin: 0 auto;
+  width: 75%;
+  height: 30%;
+  /* background-color: black; */
+}
+.more_main {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.card {
+  color: white;
+  background-color: #4ba2f9;
+  border-radius: 20pt;
+  width: 23%;
+  height: 100%;
+  text-align: center;
+  line-height: 50%;
+  box-shadow: #000000 5px 5px 6px;
+  text-align: center;
+  line-height: 96px;
+  font-size: larger;
+  opacity: 0.73;
+}

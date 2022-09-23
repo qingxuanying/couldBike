@@ -1,0 +1,8 @@
+.zixun_body{
+    background-image: url(./img/ba.png) ;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
