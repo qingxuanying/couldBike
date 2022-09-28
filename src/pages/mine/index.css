@@ -1,0 +1,52 @@
+.mine_body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.my_head{
+    width: 100%;
+    height: 17%;
+    background-image: url('./img/back.png');
+    background-size: cover;
+    display: flex;
+}
+.head_i{
+    background-color: #FFFCE1;
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-bottom: 8%;
+}
+.head_t{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 4%;
+}
+.te_1{
+    font-size: larger;
+    color: #FFFFFF;
+
+}
+.te_2{
+    color: #FFFFFF;
+    font-size: small;
+    margin-top: 1%;
+}
+.con_img{
+    width: 70px;
+    height: 70px;
+    /* overflow: hidden; */
+    background-image: url('./img/bianji.png');
+    background-size: cover;
+    margin-left: 30%;
+    margin-top: 6%;
+}
+.kefu{
+    position: absolute;
+    right: 6%;
+    bottom: 30%;
+    color: #FFFFFF;
+    background-color: #97C4F2;
+    border-radius: 45pt;
+    padding: 4%;
+}

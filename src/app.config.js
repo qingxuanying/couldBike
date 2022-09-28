@@ -5,7 +5,8 @@ export default {
     'pages/xunlian/index',
     'pages/guide/index',
     'pages/zixun/index',
-    'pages/addZixun/index'
+    'pages/addZixun/index',
+    'pages/mine/index'
   ],
   window: {
     backgroundTextStyle: 'light',

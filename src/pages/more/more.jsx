@@ -20,6 +20,11 @@ export default class More extends Component {
       url: '/pages/zixun/index'
     })
   }
+  tomine = () => {
+    Taro.navigateTo({
+      url: '/pages/mine/index'
+    })
+  }
   render() {
     return (
       <View className='more_body'>
@@ -27,7 +32,7 @@ export default class More extends Component {
           <View className='card' onClick={this.toxun}>训练</View>
           <View className='card' onClick={this.toGuide}>指南</View>
           <View className='card' onClick={this.tozixun}>咨询</View>
-          <View className='card'>我的</View>
+          <View className='card' onClick={this.tomine}>我的</View>
         </View>
       </View>
     )
