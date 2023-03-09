@@ -42,4 +42,9 @@
     margin-top: 6%;
     font-size: large;
     font-weight: bolder;
+    width: 60%;
+    height: 80%;
+}
+.vedio{
+    width: 100%;
 }

@@ -16,6 +16,7 @@
     margin-top: 8%;
     margin-left: 8%;
     margin-bottom: 8%;
+    overflow: hidden;
 }
 .head_t{
     margin-top: 8%;
@@ -49,4 +50,8 @@
     background-color: #97C4F2;
     border-radius: 45pt;
     padding: 4%;
+}
+.touxiang{
+    width: 100px;
+    height: 100px;
 }

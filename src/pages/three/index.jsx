@@ -48,31 +48,31 @@ export default class Three extends Component {
 
       console.log('test3')
   }
-  // //创建宇宙背景
-  // createUniverse() {
-  //   let texture = new THREE.TextureLoader().load(); //加载背景贴图
-  //   this.scene.background = texture; //设置场景背景
-  // }
+  //创建宇宙背景
+  createUniverse() {
+    let texture = new THREE.TextureLoader().load(); //加载背景贴图
+    this.scene.background = texture; //设置场景背景
+  }
 
-  //加载模型
-  // loadModel() {
-  //   let loader = new GLTFLoader();
-  //   //此路径是相当对于public中index.html的，模型必须放在public路径下
-  //   loader.load("models/blueWhite.gltf", (gltf) => {
-  //     console.log(gltf);
-  //     gltf.scene.position.set(0, 0, 0);
-  //     this.scene.add(gltf.scene);
-  //   });
-  // }
+  加载模型
+  loadModel() {
+    let loader = new GLTFLoader();
+    //此路径是相当对于public中index.html的，模型必须放在public路径下
+    loader.load("models/blueWhite.gltf", (gltf) => {
+      console.log(gltf);
+      gltf.scene.position.set(0, 0, 0);
+      this.scene.add(gltf.scene);
+    });
+  }
 
-  //创建光源
-  // createLight() {
-  //   this.ambientLight = new THREE.AmbientLight(0x6aceff); //设置环境光
-  //   this.scene.add(this.ambientLight); //将环境光添加到场景中
-  //   this.pointLight = new THREE.PointLight(0xffffff, 1, 0);
-  //   this.pointLight.position.set(10, 10, 0); //设置点光源位置
-  //   this.scene.add(this.pointLight); //将点光源添加至场景
-  // }
+  创建光源
+  createLight() {
+    this.ambientLight = new THREE.AmbientLight(0x6aceff); //设置环境光
+    this.scene.add(this.ambientLight); //将环境光添加到场景中
+    this.pointLight = new THREE.PointLight(0xffffff, 1, 0);
+    this.pointLight.position.set(10, 10, 0); //设置点光源位置
+    this.scene.add(this.pointLight); //将点光源添加至场景
+  }
 
 
 

@@ -48,7 +48,6 @@ export default class Model extends Component {
         statu:0
       })
     }
-    console.log(212354156)
   }
 
   render() {

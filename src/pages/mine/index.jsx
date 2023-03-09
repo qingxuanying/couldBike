@@ -3,6 +3,7 @@ import { View, Image } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import './index.css'
 import {img1} from './img/bianji.png'
+import {tou} from './img/tou.png'
 
 export default class Mine extends Component {
   componentDidMount() {
@@ -21,11 +22,11 @@ export default class Mine extends Component {
       <View className='mine_body'>
         <View className='my_head'>
           <View className='head_i'>
-            临时图片替
+            <Image src={tou} className='touxiang'></Image>
           </View>
           <View className='head_t'>
-            <View className='te_1'>我的昵称</View>
-            <View className='te_2'>我的性别</View>
+            <View className='te_1'>test1111</View>
+            <View className='te_2'>男</View>
           </View>
           <View className='con_img'>
             <Image src={img1} className='img'></Image>

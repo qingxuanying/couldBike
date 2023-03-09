@@ -1,0 +1,30 @@
+.first_body{
+    background-image: url(../img/bac.jpg) ;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: inline-flex;
+}
+.body_m{
+    width: 45%;
+    margin: 0 auto;
+    padding-top: 80%;
+    text-align: center;
+    color: white;
+}
+.but_1{
+    padding: 5%;
+    background-color: #BABEA2;
+    margin-bottom: 25%;
+    opacity:56%;
+    border-radius: 5px;
+}
+.but_2{
+    padding: 5%;
+    margin-top: 25%;
+    background-color: #B0BBC9;
+    opacity:56%;
+    border-radius: 5px;
+}

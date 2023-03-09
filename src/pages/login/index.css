@@ -1,0 +1,62 @@
+.first_body{
+    background-image: url(../img/bac.jpg) ;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: block;
+}
+.top{
+    width: 100%;
+    height: max-content;
+    display: block;
+}
+.bus{
+    width: 100%;
+    height: max-content;
+    display: block;
+}
+.userid{
+    font-size: large;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border: black solid 2px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 7% auto;
+}
+.password{
+    font-size: large;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border: black solid 2px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 7% auto;
+}
+.but1{
+    font-size: x-large;
+    border: 2px solid red;
+    text-align: center;
+    color: white;
+    background-color: #0A2442;
+    width: 60%;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50PX;
+    line-height: 100px;
+}
+.but2{
+    font-size: x-large;
+    border: 2px solid red;
+    text-align: center;
+    color: white;
+    background-color: #0A2442;
+    width: 60%;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50PX;
+    line-height: 100px;
+    margin-top: 100px;
+}
